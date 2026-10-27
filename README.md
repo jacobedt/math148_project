@@ -1,16 +1,16 @@
-# Training a Computer to Play 2048 in 3D
+# Training a Computer to Play 2048 in n Dimensions
 
 <img src="game_picture_1.png" alt="game visual" width="400"/>
 
-By Tianlin Yue, Yizhuo Chang, Stephanie Su, Zizhan Wei, Jacob Titcomb, Yinqi Yao, and Zhekai Zheng
+<!-- By Jacob Titcomb, Tianlin Yue, Yizhuo Chang, Stephanie Su, Zizhan Wei, Yinqi Yao, and Zhekai Zheng -->
 
-This respository is a part of a capstone project for MATH 148 at UCLA entitled "Developing an AI Agent for 3D 2048 Using Deep Q-Learning."
+This respository is a part of a capstone project for MATH 148 at UCLA entitled "Developing an AI Agent for $n$-Dimensional 2048 Using Deep Q-Learning."
 
 Feel free to try for yourself!
 
 ## Overview
 
-Our project studies a 3-dimensional variation on the game 2048, originally designed by [Gabriele Cirulli](https://github.com/gabrielecirulli/2048). We construct the game environment and train an AI agent to play the game for a $3\times 3\times 3$ board. Employing a Dueling Deep Q-Learning model, the code in this repository documents our development process: neural network design to model training and eventually model testing.
+Our project studies $n$-dimensional variations on the game 2048, with the 3D variant originally designed by [Gabriele Cirulli](https://github.com/gabrielecirulli/2048). While our work explores higher-dimensional variants, we focus on the 3D case for analysis of training. This repository constructs a toy 3D game environment and trains an AI agent to play the game for a $3\times 3\times 3$ board. Employing a Dueling Deep Q-Learning model, the code in this repository documents our development process: neural network design to model training and eventually model testing.
 
 Unfortunately, the checkpoint files are too large to upload to GitHub, but they can be accessed through [this Google drive](https://drive.google.com/drive/folders/1L27GUpmwOVPkFXj1C2p-MhDYwcXUKvj-?usp=sharing).
 
