@@ -1,4 +1,4 @@
-# Training a Computer to Play 2048 in n Dimensions
+# Training a Computer to Play 2048 in $n$-Dimensions
 
 <img src="game_picture_1.png" alt="game visual" width="400"/>
 
